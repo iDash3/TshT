@@ -1,0 +1,75 @@
+body{
+	font-family: 'Comfortaa', cursive;
+	margin: 0;
+	padding: 0;
+}
+body a{color: white; text-decoration: none;}
+body a:hover{color: #E0E0E0; text-decoration: none;}
+.row{margin: 0;}
+
+/* Sections */
+#section-one-header{
+	color: white;
+	background-color: #424242;
+}
+#title{
+	font-size: 35px;
+	/*font-weight: 700;*/
+}
+#section-one-content{
+	color: white;
+	/*background-image: url("https://images.pexels.com/photos/60132/pexels-photo-60132.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");*/
+	/*background-color: #424242;*/
+	min-height: 560px;	
+}
+#description span{
+	/*margin-right: 30px;*/
+}
+#projects span{
+	color: #B2EBF2;
+	font-weight: 300;
+	font-size: 1.2rem;
+}
+
+
+.btn-flat{
+	color: white;
+	/*border-radius: 18px;*/
+	background-color: #607D8B;
+	font-size: 18px;
+}
+.btn-flat:hover{
+	background-color:  #757575;
+	color: #EEEEEE;
+}
+
+#main-title{
+	font-size: 40px;
+	font-weight: 700;
+}
+
+
+.line{
+	background: #424242;
+	width: 98%;
+	height: 5px;
+}
+/* Fonts */
+.f-light{
+	font-weight: 300;
+	color: #F5F5F5;
+	font-size: 1rem;
+}
+.f-impact{
+	font-weight: 300;
+	color: #B2EBF2;
+	font-size: 1.2rem;
+}
+/* Change design on screen width. */
+@media screen and (max-width: 992px){
+	#main-title{
+		font-size: 32px;
+		font-weight: 700;
+	}
+}
+
